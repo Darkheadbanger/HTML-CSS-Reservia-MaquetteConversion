@@ -36,7 +36,29 @@
     </head>
     <body>
         <div id="main_wrapper"><!--Pour englober la page, pour pouvoir g�r�r facilement ma page-->
-        
+            <header><!--L'entete, on y trouve le logo de reservia et le navigation du lien-->
+                <div class="header_column">
+                    <div class="header">
+                        <div id="logo"><!-- element 1. Ici, pour g�rer le img du reservia (taille, width etc)-->
+                            <!--reservia-->
+                            <a href="index.html"><img src="Projet_2_Reservia/images/logo/Reservia@3x.png" alt="logo_reservia"/></a><!-- le logo de reservia-->
+                            <!-- 3eme soluton, pas bon car absolute et reste fixe si la page se réduit
+                                <nav class="nav_droite">
+                                    <a href="#">S'inscrire</a>
+                                </nav>
+                            -->
+                        </div>                        
+                        
+                        <nav class="hidden_petit">
+                            <ul>
+                                <li><a href="#hebergement_ancre">Hébergements</a></li>
+                                <li><a href="#activité_ancre">Activités</a></li>
+                                <li class="inscrire"><a href="#"><strong>S'inscrire</strong></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
         </div>
     </body>
 </html>

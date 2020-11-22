@@ -14,8 +14,6 @@
         font-weight: normal;
         font-style: normal;
     }
-<<<<<<< HEAD
-=======
 
     #main_wrapper {
         max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
@@ -23,5 +21,40 @@
         padding-right: 10px;
         padding-left: 10px; /* Pour donner un peu de place au bords de page*/
     }
->>>>>>> feature/main
+
+    body {
+        background-color: white;
+        font-family: 'raleway', arial, sans-serif;
+        color: black;
+        position: relative;
+    }
+
+    #main_wrapper {
+        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+    }
+    header {
+        height: 85px;
+    }
+
+    .header {
+        display:flex;
+        /*flex-wrap: wrap;*/
+        justify-content: space-between;
+        /*align-items: flex-end;*/
+    }
+
+    #logo {
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #logo img {
+        width: 44%;
+        height: auto;
+    }
+
 }

@@ -14,4 +14,14 @@
         font-weight: normal;
         font-style: normal;
     }
+<<<<<<< HEAD
+=======
+
+    #main_wrapper {
+        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+    }
+>>>>>>> feature/main
 }

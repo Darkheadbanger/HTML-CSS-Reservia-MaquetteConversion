@@ -1,0 +1,24 @@
+﻿/* partie CSS */
+
+@media only screen and (min-width: 1199px) {
+
+    @font-face {
+        font-family:'raleway';
+        src: url('fonts_Ral/Raleway-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family:'raleway_italic';
+        src: url('fonts_Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #main_wrapper {
+        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+    }
+}

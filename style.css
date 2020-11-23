@@ -2737,4 +2737,67 @@
     * {
         box-sizing: border-box;
     }
+
+    
+    .localisation {
+        height: 49px;
+        display: flex;
+        flex-direction:row;
+    }
+    
+    form.localisation input[type=text] {
+        padding: 0px 2rem 0px 1rem;
+        font-size: 1.063em;/* equivalent de 17px*/
+        border: none;
+        float: left;
+        flex-grow: 2;
+        background: white;
+        flex-grow: 2;
+        border: 1px solid #f2f2f2f2;
+    }
+
+    input:focus {
+        outline:none;
+    }
+    
+    form.localisation button {
+        float: left;
+        padding: 13px;
+        background: #0065FC;
+        color: white;
+        font-size: 1.063em;
+        border: 1px grey;
+        border-style: normal;
+        border-left: none;
+        cursor: pointer;
+        border-radius: 15px;
+        margin: 0px -9px;
+    }
+
+    .countour {
+        padding: 15px 15px 10px 17px;
+        font-size: 1.063em;/* equivalent de 17px*/
+        border: 1px grey;
+        border-style: normal;
+        float: left;
+        background:#F2F2F2;
+        width: 43px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    ::placeholder { /*firefox*/
+        color: black;
+        opacity: 1;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black;
+       }
+       
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: black;
+    }
+
 }

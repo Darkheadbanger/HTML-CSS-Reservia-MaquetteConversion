@@ -1895,4 +1895,108 @@
     }
 
     
+    /* section commence ici*/
+
+    .top_section {
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: column;
+        margin: 0 35px;
+    }
+
+    h1{
+        font-size:1.2em;
+        font-weight: bold;
+        height:5px;
+    }
+
+    .h1_top {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 11rem 0 2rem 0;
+    }
+
+    section h2, h3 {
+        font-weight: normal;
+        font-size: 0.9em;
+        padding-top: 10px;
+        margin: 0px 0px 19px 3px;
+        color: rgb(88,88,88);
+    }
+
+    .information_gris{
+        color: rgb(88,88,88);
+    }
+
+    h2 {
+        font-size: 1.33em;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    .localisation {
+        height: 65px;
+    }
+    
+    form.localisation input[type="text"] {
+        padding: 9px;
+        font-size: 1.063em;
+        border: 1px solid white;
+        float: left;
+        background: white;
+        border: 1px solid #f2f2f2;
+    }
+    
+    form.localisation button {
+        float: left;
+        padding: 10px;
+        background: #0065FC;
+        color: white;
+        font-size: 1.063em;
+        border: 1px grey;
+        border-left-color: grey;
+        border-left-style: none;
+        border-left-width: 1px;
+        border-style: normal;
+        border-left: none;
+        cursor: pointer;
+        border-radius: 0 10px 10px 0;
+        margin: 0 0 0 -19px;
+    }
+
+    .btn_hidden1 {
+        visibility: hidden;
+    }
+
+    .countour {
+        padding: 11px 0px 10px 17px;
+        font-size: 1.063em;
+        border: 1px grey;
+        border-style: normal;
+        float: left;
+        background: #F2F2F2;
+        width: 43px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    ::placeholder { /*firefox*/
+        color: black;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black;
+        opacity: 1;
+        font-weight: bold;
+    }
+       
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: black;
+        opacity: 1;
+        font-weight: bold;
+    }
+
 }

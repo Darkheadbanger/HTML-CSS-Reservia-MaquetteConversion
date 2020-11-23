@@ -293,4 +293,26 @@
         color: black;
     }
 
+    
+    .boutton:hover {
+        background: #0065FC;
+    }
+
+    .fa-money-bill-wave {
+        color: #0065FC;
+    }
+
+    .fa-child {
+        color:#0065FC;
+    }
+
+    .fa-heart {
+        color: #0065FC;
+    }
+
+    .fa-dog {
+        color: #0065FC;
+    }
+
+
 }

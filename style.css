@@ -2462,4 +2462,83 @@
         background: white;
         margin: 0 17px;
     }
+
+    
+    .responsive_activité {
+        background: white;
+        margin: 0 0px 2rem -1.4rem;;
+        border-radius: 20px;
+        padding: 8px 8px 0px 8px;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        width: 98%;
+    }
+
+    .responsive_activité a{
+        text-decoration: none;
+    }
+
+    .gallery_activité1 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+        background-size: cover;
+        background-position: 0px -162px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+        background-position: 0rem -1.2rem;
+    }
+
+    .gallery_activité2 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+        background-size: cover;
+        background-position: 0 -49px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+        background-position: 0rem -18rem;
+    }
+
+    .gallery_activité3 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+        background-size: cover;
+        background-position: 0 -53px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+        background-position: 0rem -1.5rem;
+    }
+
+    .gallery_activité4 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+        background-size: cover;
+        background-position: 0 -133px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+        background-position: 0rem -1.6rem;
+    }
+
+    .gallery_activité5 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+        background-size: cover;
+        background-position: 0 -42px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .gallery_activité6 {
+        background-repeat: no-repeat;
+        background-image: url(Projet_2_Reservia/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+        background-size: cover;
+        background-position: 0 -74px;
+        width: 100%;
+        height: 32vw;
+        border-radius: 20px 20px 0 0;
+        background-position: 0rem -3rem;
+    }
 }

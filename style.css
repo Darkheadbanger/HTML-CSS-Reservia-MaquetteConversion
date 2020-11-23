@@ -2340,5 +2340,78 @@
         margin: 3rem 2em 0px 0;
     }
 
+    
+    .container_photo_description {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .card_photo_description1 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        margin: 0px 52px 20px 11px;
+        padding: 10px 0px 10px 10px;
+        width: 100%;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+
+    .container_photo_populaire {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 10vh;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .container_photo_populaire * {
+        margin: 0;
+        padding: 0;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    aside a {
+        text-decoration: none;
+    }
+
+    .image_box1 { /* Meme sans, ça foncitonne*/
+        width: 28%;
+        height: 26vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 31px 171px 143px 0px;
+        background-position: -3.8rem 0rem;
+    }
+
+    .image_box2 { /* Meme sans, ça foncitonne*/
+        width: 28%;
+        height: 26vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 31px 171px 143px 0px;
+        background-position: -2.8rem 0rem;
+    }
+
+    .image_box3 { /* Meme sans, ça foncitonne*/
+        width: 28%;
+        height: 26vw;
+        border-radius: 20px 0 0 20px;
+        /*background: white;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(Projet_2_Reservia/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+        padding: 31px 171px 143px 0px;
+        background-position: 0rem -2rem;
+    }
+
 
 }

@@ -2336,11 +2336,11 @@
         border-radius: 20px;
         margin: 2rem 0 1rem 0;
     }
+    
     .flex_populaire i {
         margin: 3rem 2em 0px 0;
     }
 
-    
     .container_photo_description {
         display: flex;
         text-decoration: none;
@@ -2413,5 +2413,29 @@
         background-position: 0rem -2rem;
     }
 
+    .description1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 0 0.5rem 16px;
+    }
+
+    .description1 p {
+        font-size: 0.9em;
+        font-weight: bold;
+        color: black;
+        margin: 0 0 6px 0;
+        /*padding: 0 0 0 0;*/
+    }
+
+    .description1 .prix {
+        font-size: 0.72em;
+        font-weight: initial;
+    }
+
+    .column {
+        width: 100%;
+        height: auto;
+    }
 
 }

@@ -2556,4 +2556,29 @@
         margin: 0 0 0 8px;
     }
 
+    
+    /* le pied*/
+    footer {
+        background: #f2f2f2f2;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .responsive_footer {
+        padding: 25px 122px 0px 48px   
+    }
+
+    .desc_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc_footer a {
+        color: black;
+        margin: 0 0px 15px 0;
+        text-decoration: none;
+    }
 }

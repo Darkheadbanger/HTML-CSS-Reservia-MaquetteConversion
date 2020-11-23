@@ -3328,4 +3328,19 @@
         border-radius: 20px 20px 0 0;
     }
 
+    
+    .desc_actvité {
+        padding: 15px;
+        text-align: left;
+        color: black;
+        padding: 18px 0 18px 0;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .desc_actvité p {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 0 0 8px;
+    }
+
 }

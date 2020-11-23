@@ -945,4 +945,61 @@
             font-style: normal;
         }
     }
+
+    
+    body {
+        background-color: white;
+        font-family: 'raleway', arial, sans-serif;
+        color: black;
+        position: relative;
+    }
+
+    #main_wrapper {
+        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+    }
+    header {
+        height: 85px;
+    }
+
+    .header {
+        display:flex;
+        /*flex-wrap: wrap;*/
+        justify-content: space-between;
+        /*align-items: flex-end;*/
+    }
+
+    #logo {
+        margin-bottom: 80px;
+    }
+    #logo img {
+        width: 44%;
+        height: auto;
+    }
+
+    nav {
+        margin: 10px 28px 0px 0px;
+        /*margin: 0 -1354px 0px 0;
+        padding-right: 15px;*/
+    }
+
+    .nav_droite_hidden {
+        visibility: hidden;
+    }
+    .hidden_grand {
+        visibility: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+        
+    .hidden_petit a {
+        font-size: 1.3em;
+        color: rgba(57, 130, 241);
+        margin: 0px 28px;
+        position: relative;
+    }
 }

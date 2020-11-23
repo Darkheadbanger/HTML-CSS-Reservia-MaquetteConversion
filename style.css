@@ -1,5 +1,7 @@
 ﻿/* partie CSS */
 
+
+
 @media only screen and (min-width: 1199px) {
 
     @font-face {
@@ -13,13 +15,6 @@
         src: url('fonts_Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
-    }
-
-    #main_wrapper {
-        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
-        margin: auto;
-        padding-right: 10px;
-        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
     }
 
     body {
@@ -56,13 +51,13 @@
         width: 44%;
         height: auto;
     }
-    
+
     nav {
         margin: 10px 63px 0px 0px;
         /*margin: 0 -1354px 0px 0;
         padding-right: 15px;*/
     }
-
+/*
     .nav_droite {
         margin: 0 34px 0px 615px;
         padding-right: 15px;
@@ -89,12 +84,12 @@
     nav li {
         margin: 0 65px 0 0px;
     }
+*/
 
     a {
     text-decoration: none;
     }
 
-    
     .hidden_petit a {
         font-size: 1.3em;
         color: rgba(57, 130, 241);
@@ -103,6 +98,15 @@
         position: relative;
     }
 
+    nav ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    /*exemple sur net*/
     .hidden_petit a:hover {
         color: rgba(105, 105, 105);
     }
@@ -124,6 +128,10 @@
         opacity: 1;
         transform: scaleX(1);
     }
+    
+        /*fini exemple*/
+
+    /*commence ici la srction */
 
     h1{
         font-size:1.2em;
@@ -156,7 +164,6 @@
     * {
         box-sizing: border-box;
     }
-    
     
     .localisation {
         height: 65px;
@@ -224,7 +231,6 @@
         font-weight: bold;
        }
 
-       
     .filtre, .informations{
         display: flex;
         flex-wrap: wrap;
@@ -243,7 +249,6 @@
         font-weight: bold;
     }
 
-    
     .boutton {
         border:2px solid rgb(218, 218, 218);;
         /*float: left;
@@ -293,7 +298,6 @@
         color: black;
     }
 
-    
     .boutton:hover {
         background: #0065FC;
     }
@@ -314,7 +318,6 @@
         color: #0065FC;
     }
 
-    
     .information {
         display: flex;
         flex-wrap: wrap;
@@ -344,7 +347,6 @@
         color: #0065FC;
     }
 
-    
     .section_flex {
         display: flex;
         /*margin-bottom:85px;*/
@@ -354,9 +356,17 @@
 
     .section_gris {
         background: #F2F2F2;
+        /*height: 730px;
+        max-width: 55%;*/
         border-radius: 20px;
         padding:0 42px 0 42px;
         margin: 0 44px 0 0;
+        /* Je me suis trompé, j'ai pensé que section va organiser les divs dedans en vertical
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        margin-bottom: 80px;
+        */
     }
 
     .container_left {
@@ -366,6 +376,49 @@
     .section_gris h1 {
         padding: 12px 0px 30px 0px;
         font-size: 1.4em;
+    }
+    /*
+    .section_gris a {
+        font-size: 1.5em;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    */
+    .afficher_plus {
+        padding: 30px 0px 0px 10px;
+        font-size: 1em;
+        font-weight: bold;
+        /*text-decoration: none;*/
+    }
+
+    .afficher_plus a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .responsive{
+        /*position: relative;
+        width:24.99999%;*/
+        background: white;
+        margin:0 22px 0 0px;
+        border-radius: 20px;
+        padding: 8px 8px 0px 8px;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+        width: 272px;
+    }
+
+    .responsive a{
+        color:black;
+        text-decoration: none;
+    }
+
+    .fa-star {
+        color: #0065FC;
+    }
+
+    .fas.fa-star.grey {
+        color: #F2F2F2;
     }
 
     .organisation {
@@ -452,32 +505,55 @@
         background-position: 0px -7.5rem;
     }
 
-    .responsive a{
-        color:black;
-        text-decoration: none;
+    /* cela ne fonctionne pas
+    .gallery:nth-child(1) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     }
 
-    .fa-star {
-        color: #0065FC;
+    .gallery:nth-child(2) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     }
 
-    .fas.fa-star.grey {
-        color: #F2F2F2;
+    .gallery:nth-child(3) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     }
 
-    .afficher_plus {
-        padding: 30px 0px 0px 10px;
-        font-size: 1em;
-        font-weight: bold;
-        /*text-decoration: none;*/
+    /* celui de bas
+    .gallery1:nth-child(1) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     }
 
-    .afficher_plus a {
-        text-decoration: none;
-        color: black;
+    .gallery1:nth-child(2) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     }
 
-    
+    .gallery1:nth-child(3) {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    }
+
+    .gallery img {
+        width:97%;
+        margin: 1% 0 0 2%;
+        height:auto;
+        border-radius: 20px 20px 0 0;
+    }
+
+    /* Pour couper l'image pour que ça colle avec les autres
+    .gallery_amina img {
+        width:97%;
+        margin: 1% 0 0 2%;
+        height:auto;
+        border-radius: 20px 20px 0 0;
+        position: relative;
+    }
+
+    .gallery_amina {
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 138px 190px 45px;
+    }*/
+
     .desc {
         padding: 9px 46px 12px 0px;
         text-align: left;
@@ -499,8 +575,40 @@
     .hebergements_espaces {
         padding: 35px 0 0 0;
     }
+    /*
+    #background_gris {
+        background-color: #F2F2F2;
+        height: 100px;
+        width: 60%;
+    }
+    #background_gris h1 {
+        margin-left: 25px;
+    }
 
-    
+    .hebergement_1 {
+        background-color:  #F2F2F2;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergement_2 {
+        background-color:  white;
+    }
+
+    .hebergement_cliquable img {
+        max-width: 20%;
+        max-height: auto;
+    }
+
+    .hebergement_2 ul {
+        list-style-type: none;
+    }
+
+    .rouge {
+        background: red;
+
+    }
+    */
     aside {
         background: #f2f2f2f2;
         /*margin: 0 0 0 54px;*/
@@ -531,16 +639,26 @@
         padding: 2.5rem 0 1.5rem 2rem;
     }
 
-    
     .container_photo_description {
         display: flex;
         text-decoration: none;
+        /*
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        /*margin: -50px 0 0 0;
+        width: 100%;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 20px 20px 20px 20px;*/
     }
 
     .card_photo_description1 {
         display: flex;
         flex-direction: row;
         position: relative;
+        /*max-width: 100%;
+        height: auto;*/
         background: white;
         border-radius: 20px;
         margin: 0px 31px 20px 30px;
@@ -549,7 +667,6 @@
         box-shadow: 9px 9px rgb(239, 239, 239);
     }
 
-    
     .container_photo_populaire {
         display: flex;
         justify-content:center;
@@ -604,6 +721,15 @@
         background-position: 0rem -2rem;
     }
 
+    /*
+    .description {
+        width: 65%;
+        height: auto;
+        background:white;
+        margin:0 0 0 20px;
+    } 
+    */
+
     .description1 {
         
         /*width: 100%;
@@ -632,8 +758,45 @@
         padding: 0 0 0 0;
         font-weight: normal;
     }
+/*
+    .description2 {
+        
+        /*width: 100%;
+        height: auto;
+        background:white;
+        margin: 0 0 0 120px;*/
+        /*padding: 0 20px 0 20px;
+        padding: 0px 62px 0px 13px;
+    }
 
-    
+    .description2 p {
+        font-size: 1.2em;
+        margin: 0 0 10px 0 ;
+        padding: 0 0 0 0;
+        font-weight: bold;
+    }
+
+    .description2 .prix {
+        font-size: 1em;
+        margin: 0 0 140px 0 ;
+        padding: 0 0 0 0;
+        font-weight: normal;
+    }
+*/
+    /*
+    .image_box2 {
+        max-width: 65%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .image_box2 img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 20px;
+    }
+    */
+
     .section_flex_activité {
         display: flex;
         margin-bottom: 112px;
@@ -665,7 +828,6 @@
         background: white;
     }
 
-    
     .responsive_activité {
         background: white;
         margin: 0 38px 19px 0px;
@@ -748,9 +910,10 @@
         background: #f2f2f2f2;
         display:flex;
         justify-content: space-between;
+        padding:0 0 0 0;
+        margin: 0 0 0 0;
     }
 
-    
     .responsive_footer {
         margin: 0 0 0 0;
         padding:28px 335px 28px 48px;

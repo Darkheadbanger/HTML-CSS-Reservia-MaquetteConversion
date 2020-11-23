@@ -1806,5 +1806,93 @@
         /*border-bottom: 6px  solid #f2f2f2f2;*/
         flex-wrap: wrap;
     }
+
+    #logo img {
+        width: 36%;
+        height: auto;
+    }
+
+    /*exemple sur internet*/
+
+    /* c'est ici qu'on travaille*/
+    .hidden_petit {
+        margin: 0.5rem -1rem;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 5px solid #f2f2f2f2;
+    }
+
+    .hidden_petit a {
+        color: rgba(57, 130, 241);
+        text-decoration: none;
+        font-size: 1.25rem;
+        padding: .85em 4.5em;
+        position: relative;
+    }
+    
+    .hidden_petit a::after {
+        content: "";
+        position: absolute;
+        background: #0065fc;
+        height: 5px;
+        left: 0;
+        right: 0;
+        bottom: -5px;
+        
+        transition: .25s ease-in-out;
+        opacity: 0;
+        transform: scaleX(.5);
+    }
+    
+    .hidden_petit a:hover::after {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    /* jusqu'a ici*/
+    /* pour tablette */
+    .hidden_tablette {
+        margin: -4.5rem -1rem;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: 5px solid #f2f2f2f2;
+    }
+    
+    .hidden_tablette a {
+        color: rgba(57, 130, 241);
+        text-decoration: none;
+        font-size: 1.25rem;
+        padding: .85em 5.5em;
+        position: relative;
+    }
+    
+    .hidden_tablette a::after {
+        content: "";
+        position: absolute;
+        background: #0065fc;
+        height: 5px;
+        left: 0;
+        right: 0;
+        bottom: -5px;
+        
+        transition: .25s ease-in-out;
+        opacity: 0;
+        transform: scaleX(.5);
+    }
+    
+    .hidden_tablette a:hover::after {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    /*fin tablette*/
+
+    nav ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     
 }

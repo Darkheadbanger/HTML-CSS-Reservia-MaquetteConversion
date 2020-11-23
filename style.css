@@ -1236,5 +1236,27 @@
         display: flex;
     }
 
+    
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .information_logo { /* pour crÃ©er le rond*/
+        border: 1px solid grey;
+        border-style: normal;
+        border-left: none;
+        border-radius: 50%;
+        width: 27px;
+        background: white;
+        margin: 10px 15px 13px 0;
+        padding: 4px 0px 0 11px;
+    }
+
+    .fa-info {
+        color: #0065FC;
+    }
+
 
 }

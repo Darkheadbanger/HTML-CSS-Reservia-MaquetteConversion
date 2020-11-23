@@ -2907,4 +2907,65 @@
     }
 
 
+    .flex_information {
+        display:flex;
+        margin-top: 1rem;
+    }
+
+    .fa-info {
+        color: #0065FC;
+    }
+
+    .section_flex {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        /*margin-bottom:85px;*/
+        margin: 21px 0 0 0;
+        margin-bottom: 3rem;
+    }
+
+    .section_gris {
+        background: white;
+        /*height: 730px;
+        max-width: 55%;*/
+        border-radius: 20px;
+        padding:0 42px 0 42px;
+        margin: 0 44px 0 0;
+        /* Je me suis trompé, j'ai pensé que section va organiser les divs dedans en vertical
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        margin-bottom: 80px;
+        */
+    }
+
+    .container_left {
+        flex:3;
+    }
+
+    .section_gris h1 {
+        padding: 1rem 0rem 1rem 0px;
+        font-size: 1.16em;
+    }
+    /*
+    .section_gris a {
+        font-size: 1.5em;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    */
+    .afficher_plus {
+        padding: 30px 0px 0px 10px;
+        font-size: 1em;
+        font-weight: bold;
+        /*text-decoration: none;*/
+    }
+
+    .afficher_plus a {
+        text-decoration: none;
+        color: black;
+    }
+
 }

@@ -2800,4 +2800,111 @@
         color: black;
     }
 
+    
+    .filtre, .informations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: left;
+        height: 10rem;
+    }
+
+    .filtre_p {
+        margin: 13px 32px 0 0;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .filtre p { 
+        margin: 13px 32px 0 0;
+
+        /*margin-right: 32px; /* pour mettre un peu d'espace entre filtre et le countour
+        margin-top: 13px; /*j'ai voulu mettre vertical-align: middle; mais ne fonctionne pas*/
+        font-weight: bold;
+    }
+
+    .boutton {
+        border: 2px solid rgb(218, 218, 218);
+        font-weight: bold;
+        font-size: 1.063em;
+        cursor: pointer;
+        border-radius: 48px 50px 50px 44px;
+        height: 43px;
+        padding: 2px 3px 0px 0px;
+        margin: 0px 5px 0px 0px;
+    }
+
+    .btn_filtre1 {
+        float: left;
+        background: #DEEBFF;
+        font-size: 1.063em;
+        border-radius: 50px;
+        height: 39px;
+        padding: 9px 10px 0px 10.5px;
+        margin: -2.50px 2px 0px 0px;
+        width: 37px;
+    }
+
+    .filtre_desc {
+        float: left;
+        font-size: 1.063em;
+        height: 42px;
+        padding: 5px 9px 9px 6px;
+    }
+
+    .filtre_desc span {
+        font-weight: bold;
+        color: black;
+        font-size: 0.8em;
+    }
+
+    .boutton:hover {
+        background: #0065FC;
+    }
+
+    .btn_hidden {
+        visibility: hidden;
+    }
+
+    .fa-money-bill-wave {
+        color: #0065FC;
+    }
+
+    .fa-child {
+        color:#0065FC;
+    }
+
+    .fa-heart {
+        color: #0065FC;
+    }
+
+    .fa-dog {
+        color: #0065FC;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 0 0 0;
+    }
+
+    .information_gris {
+        color: rgb(88,88,88);
+        font-size: 0.9em;
+    }
+
+    .information_logo { /* pour crÃ©er le rond*/
+        border: 1px solid grey;
+        border-style: normal;
+        border-left: none;
+        border-radius: 50%;
+        width: 29px;
+        background: white;
+        margin: 10px 15px 27px 0;
+        padding: 2px 0 3px 10px;
+    }
+
+
 }

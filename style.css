@@ -548,4 +548,59 @@
         width: 100%;
         box-shadow: 9px 9px rgb(239, 239, 239);
     }
+
+    
+    .container_photo_populaire {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 10vh;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .container_photo_populaire * {
+        margin: 0;
+        padding: 0;
+        border-radius: 20px;
+    }
+
+
+    .image_box1 { /* Meme sans, ça foncitonne*/
+        width: 31.5%;
+        height: 10vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 31px 94px 143px 0px;
+        /*padding: 13px 135px 214px 79px;*/
+        background-position: -3.3rem 0rem;
+    }
+
+    .image_box2 {
+        width: 35%;
+        height: 10vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 31px 94px 143px 0px;
+        /*padding: 13px 135px 214px 79px;*/
+        background-position: -2.3rem 0rem;
+    }
+
+    .image_box3 { /* Meme sans, ça foncitonne*/
+        width: 32%;
+        height: 10vw;
+        border-radius: 20px 0 0 20px;
+        background: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+        padding: 31px 94px 143px 0px;
+        background-position: 0rem -2rem;
+    }
 }

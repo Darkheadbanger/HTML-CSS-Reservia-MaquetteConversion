@@ -1614,4 +1614,17 @@
         font-size: 1.4em;
     }
 
+    
+    .organisation_activité {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background: white;
+    }
+
+    .column {
+        margin:auto;
+    }
+
 }

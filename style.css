@@ -223,4 +223,23 @@
         opacity: 1;
         font-weight: bold;
        }
+
+       
+    .filtre, .informations{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: left;
+        height: 50px;
+    }
+
+    .filtre_p {
+        display: flex;
+        height: 4rem;
+    }
+
+    .filtre_p p { 
+        margin: 13px 32px 0 0;
+        font-weight: bold;
+    }
 }

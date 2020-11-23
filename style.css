@@ -57,4 +57,41 @@
         height: auto;
     }
     
+    nav {
+        margin: 10px 63px 0px 0px;
+        /*margin: 0 -1354px 0px 0;
+        padding-right: 15px;*/
+    }
+
+    .nav_droite {
+        margin: 0 34px 0px 615px;
+        padding-right: 15px;
+    }
+
+
+    .separation_nav {
+        margin: 0 0 0 -25px;
+    }
+
+    .end_nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    nav li {
+        margin: 0 65px 0 0px;
+    }
+*/
+
+    a {
+    text-decoration: none;
+    }
 }

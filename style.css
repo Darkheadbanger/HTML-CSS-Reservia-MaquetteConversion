@@ -1034,4 +1034,44 @@
         opacity: 1;
         transform: scaleX(1);
     }
+
+    
+    .top_section {
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+    
+    h1{
+        font-size:1.2em;
+        font-weight: bold;
+        height:5px;
+    }
+
+    .h1_top {
+        font-size:1.2em;
+        font-weight: bold;
+        height:5px;
+    }
+
+    section h2, h3 {
+        font-weight: normal;
+        font-size: 0.9em;
+        padding-top: 10px;
+        margin: 0px 0px 13px 3px;
+        color: rgb(88,88,88);
+    }
+
+    .information_gris{
+        color: rgb(88,88,88);
+    }
+
+    h2 {
+        font-size: 1.33em;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
 }

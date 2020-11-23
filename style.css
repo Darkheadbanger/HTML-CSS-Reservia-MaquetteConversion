@@ -1002,4 +1002,36 @@
         margin: 0px 28px;
         position: relative;
     }
+
+    
+    .hidden_petit a:hover {
+        color: rgba(105, 105, 105);
+    }
+    
+    nav ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+        /*exemple sur net*/
+        
+    .hidden_petit a::after {
+        content: "";
+        position: absolute;
+        background: #0065FC;
+        height: 3px;
+        left: -2rem;
+        right: -2rem;
+        bottom: 5.05rem;
+        transition: .25s ease-in-out;
+        opacity: 0;
+        transform: scaleX(.5);
+    }
+            
+    .hidden_petit a:hover::after {
+        opacity: 1;
+        transform: scaleX(1);
+    }
 }

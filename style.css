@@ -1198,4 +1198,43 @@
         height: auto;
     }
 
+    
+    .filtre_desc {
+        float: left;
+        font-size: 1.063em;
+        height: 42px;
+        padding: 11px 14px 9px 10px;
+    }
+
+
+    .filtre_desc span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .boutton:hover {
+        background: #0065FC;
+    }
+
+    .fa-money-bill-wave {
+        color: #0065FC;
+    }
+
+    .fa-child {
+        color:#0065FC;
+    }
+
+    .fa-heart {
+        color: #0065FC;
+    }
+
+    .fa-dog {
+        color: #0065FC;
+    }
+
+    .flex_information {
+        display: flex;
+    }
+
+
 }

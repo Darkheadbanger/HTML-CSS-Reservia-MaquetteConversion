@@ -1,5 +1,7 @@
 ﻿/* partie CSS */
 
+
+
 @media only screen and (min-width: 1199px) {
 
     @font-face {
@@ -2579,6 +2581,8 @@
     }
 }
 
+
+
 /* En bas, pour le petit écran*/
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -2609,7 +2613,6 @@
         width: 100%;
     }
 
-    
     .header_column {
         display:flex;
         flex-direction: column
@@ -2737,7 +2740,6 @@
     * {
         box-sizing: border-box;
     }
-
     
     .localisation {
         height: 49px;
@@ -2800,7 +2802,6 @@
         color: black;
     }
 
-    
     .filtre, .informations {
         display: flex;
         flex-wrap: wrap;
@@ -2906,7 +2907,6 @@
         padding: 2px 0 3px 10px;
     }
 
-
     .flex_information {
         display:flex;
         margin-top: 1rem;
@@ -2968,7 +2968,6 @@
         color: black;
     }
 
-    
     .responsive{
         /*position: relative;
         width:24.99999%;*/
@@ -3080,7 +3079,6 @@
         background-position: 0rem -11rem;
     }
 
-    
     .desc {
         padding: 9px 46px 12px 12px;
         text-align: left;
@@ -3099,7 +3097,6 @@
         font-weight: normal;
     }
 
-    
     aside {
         background: #f2f2f2f2;
         padding: 0px 1.2rem 2rem 1.2rem;
@@ -3129,7 +3126,6 @@
         margin: 43px 1em;
     }
 
-    
     .container_photo_description {
         display: flex;
         text-decoration: none;
@@ -3199,7 +3195,6 @@
         background-position: 0rem -1.3rem;
     }
 
-    
     .description1 {
         display: flex;
         flex-direction: column;
@@ -3221,7 +3216,7 @@
         font-weight: normal;
     }
 
-    
+
     .section_flex_activité {
         display: flex;
         margin-bottom: 2rem;
@@ -3250,7 +3245,6 @@
         background: white;
     }
 
-    
     .responsive_activité {
         background: white;
         margin: 0 38px 50px 0px;
@@ -3328,7 +3322,6 @@
         border-radius: 20px 20px 0 0;
     }
 
-    
     .desc_actvité {
         padding: 15px;
         text-align: left;
@@ -3343,7 +3336,6 @@
         margin: 0 0 0 8px;
     }
 
-    
     /* le pied*/
     footer {
         background: #f2f2f2f2;
@@ -3367,5 +3359,4 @@
         margin: 0 0px 15px 0;
         text-decoration: none;
     }
-
 }

@@ -1702,4 +1702,28 @@
         margin: 0 0 0 8px;
     }
 
+    
+    footer {
+        background: #f2f2f2f2;
+        display:flex;
+        justify-content: space-between;
+        padding:0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .responsive_footer {
+        padding: 28px 230px 24px 48px;
+    }
+
+    .desc_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc_footer a {
+        color: black;
+        margin: 0 0px 15px 0;
+        text-decoration: none;
+    }
+
 }

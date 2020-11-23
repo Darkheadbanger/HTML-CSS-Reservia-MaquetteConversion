@@ -477,4 +477,27 @@
         color: black;
     }
 
+    
+    .desc {
+        padding: 9px 46px 12px 0px;
+        text-align: left;
+    }
+
+    .desc p {
+        font-size: 1.2em;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+    }
+
+    .desc .prix {
+        font-size: 1em;
+        /*margin: 0 0 140px 0;*/
+        padding: 0 0 0 0;
+        font-weight: normal;
+    }
+
+    .hebergements_espaces {
+        padding: 35px 0 0 0;
+    }
+
 }

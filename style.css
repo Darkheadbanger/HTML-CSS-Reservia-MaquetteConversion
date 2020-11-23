@@ -2578,3 +2578,34 @@
         text-decoration: none;
     }
 }
+
+/* En bas, pour le petit écran*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+    @font-face {
+        font-family:'raleway';
+        src: url('fonts_Ral/Raleway-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family:'raleway_italic';
+        src: url('fonts_Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        background-color: white;
+        font-family: 'raleway', arial, sans-serif;
+        color: black;
+        position: relative;
+    }
+
+    #main_wrapper {
+        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+        margin: auto;
+        width: 100%;
+    }
+}

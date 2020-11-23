@@ -452,4 +452,29 @@
         background-position: 0px -7.5rem;
     }
 
+    .responsive a{
+        color:black;
+        text-decoration: none;
+    }
+
+    .fa-star {
+        color: #0065FC;
+    }
+
+    .fas.fa-star.grey {
+        color: #F2F2F2;
+    }
+
+    .afficher_plus {
+        padding: 30px 0px 0px 10px;
+        font-size: 1em;
+        font-weight: bold;
+        /*text-decoration: none;*/
+    }
+
+    .afficher_plus a {
+        text-decoration: none;
+        color: black;
+    }
+
 }

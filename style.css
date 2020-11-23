@@ -1999,4 +1999,131 @@
         font-weight: bold;
     }
 
+    
+    .filtre_p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtre_p p {
+        margin: 13px 32px 0 0;
+        font-weight: bold;
+    }
+
+    .filtre, .informations{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: left;
+        height: 133px;
+        height: 122px;
+        margin: 1rem 0rem;
+    }
+
+    .filtre p { 
+        margin: 13px 32px 0 0;
+
+        /*margin-right: 32px; /* pour mettre un peu d'espace entre filtre et le countour
+        margin-top: 13px; /*j'ai voulu mettre vertical-align: middle; mais ne fonctionne pas*/
+        font-weight: bold;
+    }
+
+    .boutton {
+        border: 2px solid rgb(218, 218, 218);;
+        /*float: left;
+        padding: 10px;
+        background: white;
+        opacity: 0.7;
+        color: black;*/
+        font-weight: bold;
+        font-size: 1.063em;
+        /*border-style: normal;*/
+        border-left: none;
+        cursor: pointer;
+        border-radius: 48px 50px 50px 44px;
+        height: 43px;
+        padding: 0px 23px 0px 0px;
+        margin: 0px 32px 0px 0px;
+    }
+
+    .btn_filtre1 {
+        float: left;
+        background: #DEEBFF;
+        /*padding: 10px;*/
+        /*background: #DEEBFF;
+        color: black;*/
+        font-size: 1.063em;
+        /*border-style: normal;
+        border-left: none;
+        cursor: pointer;*/
+        border-radius: 50px;
+        height: 41px;
+        /*padding: 9px;*/
+        padding: 12px 9px 10px 17px;
+        margin: -1.35px 0px 0 -9px;
+        width: 52px;
+        height: auto;
+    }
+
+    .filtre_desc {
+        float: left;
+        font-size: 1.063em;
+        height: 42px;
+        padding: 11px 14px 9px 10px;
+    }
+
+    .filtre_desc span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .boutton:hover {
+        background: #0065FC;
+    }
+
+    .fa-money-bill-wave {
+        color: #0065FC;
+    }
+
+    .fa-child {
+        color:#0065FC;
+    }
+
+    .fa-heart {
+        color: #0065FC;
+    }
+
+    .fa-dog {
+        color: #0065FC;
+    }
+
+    .flex_information {
+        display: flex;
+        height: 4rem;
+    }
+
+    .information {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0 0 0 0;
+    }
+
+    .information_logo { /* pour crÃ©er le rond*/
+        border: 1px solid grey;
+        border-style: normal;
+        border-left: none;
+        border-radius: 50%;
+        width: 27px;
+        background: white;
+        margin: 10px 15px 24px 0px;
+        padding: 4px 0px 0px 11px;
+    }
+
+
+    .fa-info {
+        color: #0065FC;
+    }
+
+
 }

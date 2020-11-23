@@ -2288,4 +2288,28 @@
         padding: 124px 66px 10px 172px;
         background-position: 0rem -23.5rem;
     }
+
+    
+    .desc {
+        padding: 9px 0 12px 11px;;
+        text-align: left;
+    }
+
+    .desc p {
+        font-size: 1.2em;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+    }
+
+    .desc .prix {
+        font-size: 1em;
+        /*margin: 0 0 140px 0;*/
+        padding: 0 0 0 0;
+        font-weight: normal;
+    }
+
+    .hebergements_espaces {
+        padding: 35px 0 0 0;
+    }
+
 }

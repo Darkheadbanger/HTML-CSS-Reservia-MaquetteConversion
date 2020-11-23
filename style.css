@@ -3221,4 +3221,33 @@
         font-weight: normal;
     }
 
+    
+    .section_flex_activité {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .section_blanc_activité {
+        border-radius: 20px;
+        padding:0 42px 0 35px;
+    }
+
+    .section_blanc_activité h1 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 0 56px 7px;
+    }
+
+    .section_gris_activité h1 {
+        padding: 12px 0px 30px 0px;
+        font-size: 1.4em;
+    }
+
+    .organisation_activité {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: white;
+    }
+
 }

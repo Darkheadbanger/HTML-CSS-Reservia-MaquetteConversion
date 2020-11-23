@@ -3129,4 +3129,74 @@
         margin: 43px 1em;
     }
 
+    
+    .container_photo_description {
+        display: flex;
+        text-decoration: none;
+    }
+
+    .card_photo_description1 {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        margin: 1rem 0.6rem 0rem 1rem;
+        padding: 5px 0px 5px 5px;
+        width: 100%;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+
+    .container_photo_populaire {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 10vh;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .container_photo_populaire * {
+        margin: 0;
+        padding: 0;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .star_row {
+        display: flex;
+    }
+
+    .image_box1 { /* Meme sans, ça foncitonne*/
+        width: 42%;
+        height: 29vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -1.7rem 0rem;
+    }
+
+    .image_box2 { /* Meme sans, ça foncitonne*/
+        width: 64%;
+        height: 29vw;
+        border-radius: 20px 0 0 20px;
+        /*background:white;*/
+        background-image: url(Projet_2_Reservia/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -1.5rem 0rem;
+    }
+
+    .image_box3 { /* Meme sans, ça foncitonne*/
+        width: 42%;
+        height: 29vw;
+        border-radius: 20px 0 0 20px;
+        /*background: white;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(Projet_2_Reservia/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+        background-position: 0rem -1.3rem;
+    }
+
 }

@@ -632,4 +632,28 @@
         padding: 0 0 0 0;
         font-weight: normal;
     }
+
+    
+    .section_flex_activité {
+        display: flex;
+        margin-bottom: 112px;
+    }
+
+    .section_blanc_activité {
+        border-radius: 20px;
+        padding:0 42px 0 35px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_blanc_activité h1 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0 0 28px 7px;
+    }
+
+    .section_gris_activité h1 {
+        padding: 2rem 0.5rem;;
+        font-size: 1.4em;
+    }
 }

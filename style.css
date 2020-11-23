@@ -1753,3 +1753,20 @@
         text-decoration: none;
     }
 }
+
+/* en bas ecran medium pour la tablette*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    @font-face {
+        font-family:'raleway';
+        src: url('fonts_Ral/Raleway-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family:'raleway_italic';
+        src: url('fonts_Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+}

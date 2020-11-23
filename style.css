@@ -750,4 +750,20 @@
         justify-content: space-between;
     }
 
+    
+    .responsive_footer {
+        margin: 0 0 0 0;
+        padding:28px 335px 28px 48px;
+    }
+
+    .desc_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc_footer a {
+        color: black;
+        margin: 0 0px 15px 0;
+        text-decoration: none;
+    }
 }

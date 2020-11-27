@@ -273,6 +273,10 @@
         color: #0065FC;
     }
 
+    .fas.fa-child.fa-xs {
+        padding: 0 0 0 4px;
+    }
+
     .information {
         display: flex;
         flex-wrap: wrap;
@@ -934,6 +938,10 @@
 
     .flex_information {
         display: flex;
+    }
+
+    .fas.fa-child.fa-xs {
+        padding: 0 0 0 4px;
     }
 
     .information {
@@ -1639,6 +1647,10 @@
         height: 4rem;
     }
 
+    .fas.fa-child.fa-xs {
+        padding: 0 0 0 4px;
+    }
+
     .information {
         display: flex;
         flex-wrap: wrap;
@@ -2316,6 +2328,10 @@
 
     .fa-dog {
         color: #0065FC;
+    }
+
+    .fas.fa-child.fa-xs {
+        padding: 0 0 0 4px;
     }
 
     .information {

@@ -23,11 +23,18 @@
     }
 
     #main_wrapper {
-        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
         margin: auto;
-        padding-right: 10px;
-        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+        padding-right: 20px;
+        padding-left: 20px;
     }
+
+    * { /* Cette classe est pour dire qu'il n'y a pas d'espcae à l'extremité de la page, pour footer*/
+        box-sizing: border-box;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    
     header {
         height: 85px;
     }
@@ -60,7 +67,6 @@
         font-size: 1.3em;
         color: rgba(57, 130, 241);
         margin: 0px 28px;
-
         position: relative;
     }
 
@@ -69,7 +75,6 @@
         list-style-type: none;
         display: flex;
         justify-content: space-evenly;
-
     }
 
     /*exemple sur net*/
@@ -115,7 +120,7 @@
         font-weight: normal;
         font-size: 0.9em;
         padding-top: 10px;
-        margin: 0px 0px 13px 3px;
+        margin: 12px 0px 13px 3px;
         color: rgb(88,88,88);
     }
 
@@ -125,10 +130,6 @@
 
     h2 {
         font-size: 1.33em;
-    }
-
-    * {
-        box-sizing: border-box;
     }
     
     .localisation {
@@ -234,9 +235,9 @@
         font-size: 1.063em;
         border-radius: 50px;
         height: 41px;
-        padding: 12px 9px 10px 17px;
+        padding: 12px 9px 10px 14px;
         margin: -1.35px 0px 0 -9px;
-        width: 52px;
+        width: 45px;
         height: auto;
     }
 
@@ -630,18 +631,19 @@
         background: #f2f2f2f2;
         display:flex;
         justify-content: space-between;
-        padding:0 0 0 0;
-        margin: 0 0 0 0;
     }
 
     .responsive_footer {
-        margin: 0 0 0 0;
-        padding:28px 335px 28px 48px;
+        padding: 28px 335px 28px 60px;
     }
 
     .desc_footer {
         display: flex;
         flex-direction: column;
+    }
+
+    .desc_footer h4 {
+        margin-bottom: 18px;
     }
 
     .desc_footer a {
@@ -674,12 +676,19 @@
         position: relative;
     }
 
-    #main_wrapper {
-        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+    #main_wrapper { /* pour donner un peu d'espace a l'extremité de la page pour tout a l'exception footer*/
         margin: auto;
-        padding-right: 10px;
-        padding-left: 10px; /* Pour donner un peu de place au bords de page*/
+        padding-right: 20px;
+        padding-left: 20px;
     }
+
+    * { /* Cette classe est pour dire qu'il n'y a pas d'espcae à l'extremité de la page, pour footer*/
+        box-sizing: border-box;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
     header {
         height: 85px;
     }
@@ -769,7 +778,7 @@
         font-weight: normal;
         font-size: 0.9em;
         padding-top: 10px;
-        margin: 0px 0px 13px 3px;
+        margin: 12px 0px 13px 3px;
         color: rgb(88,88,88);
     }
 
@@ -779,10 +788,6 @@
 
     h2 {
         font-size: 1.33em;
-    }
-
-    * {
-        box-sizing: border-box;
     }
     
     .localisation {
@@ -888,9 +893,9 @@
         font-size: 1.063em;
         border-radius: 50px;
         height: 41px;
-        padding: 12px 9px 10px 17px;
-        margin: -1.35px 0px 0 -9px;
-        width: 52px;
+        padding: 12px 9px 10px 14px;
+        margin: -1.35px 0px 0 -8px;
+        width: 44px;
         height: auto;
     }
 
@@ -956,13 +961,14 @@
         display: flex;
         margin: 21px 0 0 0;
         margin-bottom: 112px;
+        flex-wrap: wrap;
     }
 
     .section_gris {
         background: #F2F2F2;
         border-radius: 20px;
-        padding:0 42px 0 42px;
-        margin: 0 44px 0 0;
+        padding: 0 42px 42px 42px;
+        margin: 0 44px 3rem 0;
     }
 
     .container_left {
@@ -1078,7 +1084,7 @@
     aside {
         background: #f2f2f2f2;
         border-radius: 20px 20px 20px 20px;
-        padding: 0px 21px 0px 21px;
+        padding: 0px 21.6rem 3.5rem 21px;
     }
 
     aside h3 {
@@ -1096,7 +1102,7 @@
         margin: 0 0 -18px 0;
     }
     .flex_populaire i {
-        margin: 2.2rem 1em 0px 0;
+        margin: 2.7rem 1em 0px 0;
     }
 
     .container_photo_description {
@@ -1110,7 +1116,7 @@
         position: relative;
         background: white;
         border-radius: 20px;
-        margin: 0px 1px 20px 30px;
+        margin: 0px 1px 30px 30px;
         padding: 10px 0px 10px 10px;
         width: 100%;
         box-shadow: 9px 9px rgb(239, 239, 239);
@@ -1132,6 +1138,8 @@
     }
 
     .image_box {
+        width: 27%;
+        height: 10vw;
         border-radius: 20px 0 0 20px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1139,23 +1147,17 @@
     }
 
     .image_box1 { 
-        width:46%;
-        height: 10vw;
         background-image: url(Projet_2_Reservia/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
         background-position: -3.3rem 0rem;
     }
 
     .image_box2 { 
-        width:100%;
-        height: 13vw;
         border-radius: 20px 0 0 20px;
         background-image: url(Projet_2_Reservia/images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg);
         background-position: -2.4rem 0rem;
     }
 
     .image_box3 {
-        width:52%;
-        height: 10vw;
         background-image: url(Projet_2_Reservia/images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
         background-position: 0rem -2rem;
     }
@@ -1295,6 +1297,10 @@
         flex-direction: column;
     }
 
+    .desc_footer h4 {
+        margin-bottom: 18px;
+    }
+
     .desc_footer a {
         color: black;
         margin: 0 0px 15px 0;
@@ -1304,7 +1310,6 @@
 
 
 
-/* en bas ecran medium pour la tablette*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     @font-face {
@@ -1327,9 +1332,17 @@
         position: relative;
     }
 
-    #main_wrapper {
-        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+    #main_wrapper { /* pour donner un peu d'espace a l'extremité de la page pour tout a l'exception footer*/
         margin: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    * { /* Cette classe est pour dire qu'il n'y a pas d'espcae à l'extremité de la page, pour footer*/
+        box-sizing: border-box;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
     #logo {
@@ -1365,6 +1378,7 @@
         display: flex;
         justify-content: space-evenly;
         border-bottom: 5px solid #f2f2f2f2;
+        padding: 0 0 17px 0px;
     }
 
     .hidden_petit a {
@@ -1456,7 +1470,7 @@
     .h1_top {
         font-size: 1.6em;
         font-weight: bold;
-        margin: 11rem 0 2rem 0;
+        margin: 11rem 0 4rem 0;
     }
 
     section h2, h3 {
@@ -1475,10 +1489,6 @@
         font-size: 1.33em;
     }
 
-    * {
-        box-sizing: border-box;
-    }
-    
     .localisation {
         height: 65px;
     }
@@ -1587,11 +1597,10 @@
         font-size: 1.063em;
         border-radius: 50px;
         height: 41px;
-        padding: 12px 9px 10px 17px;
-        margin: -1.35px 0px 0 -9px;
-        width: 52px;
-        height: auto;
-    }
+        padding: 12px 9px 10px 14px;
+        margin: -3.35px 0px 0 -8px;
+        width: 44px;
+        height: auto;    }
 
     .filtre_desc {
         float: left;
@@ -1985,17 +1994,20 @@
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        padding:0 0 0 0;
-        margin: 0 0 0 0;
+
     }
 
     .responsive_footer {
-        padding: 25px 122px 0px 48px   
+        padding: 25px 122px 3rem 48px   
     }
 
     .desc_footer {
         display: flex;
         flex-direction: column;
+    }
+
+    .desc_footer h4 {
+        margin-bottom: 18px;
     }
 
     .desc_footer a {
@@ -2004,8 +2016,6 @@
         text-decoration: none;
     }
 }
-
-
 
 /* En bas, pour le petit écran*/
 
@@ -2031,10 +2041,15 @@
         position: relative;
     }
 
-    #main_wrapper {
-        max-width: 960 px; /* je choisi max width car en terme de responsive, c'est le meilleur choix et c'est mieux pour les Ã©crans windows plus Ã©troites*/
+    #main_wrapper { /* pour donner un peu d'espace a l'extremité de la page pour tout a l'exception footer*/
         margin: auto;
-        width: 100%;
+    }
+
+    * { /* Cette classe est pour dire qu'il n'y a pas d'espcae à l'extremité de la page, pour footer*/
+        box-sizing: border-box;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
     .header_column {
@@ -2064,6 +2079,7 @@
         display: flex;
         justify-content: space-evenly;
         border-bottom: 5px solid #f2f2f2f2;
+        padding: 0 0 0.7rem 0;
     }
 
     .hidden_petit a {
@@ -2086,7 +2102,7 @@
         height: 5px;
         left: -4rem;
         right: -4rem;
-        bottom: -5px;
+        bottom: -2px;
         
         transition: .25s ease-in-out;
         opacity: 0;
@@ -2157,10 +2173,6 @@
     h2 {
         font-size: 1.33em;
     }
-
-    * {
-        box-sizing: border-box;
-    }
     
     .localisation {
         height: 49px;
@@ -2229,6 +2241,7 @@
         justify-content: flex-start;
         align-items: left;
         height: 10rem;
+        margin-top: 0.8rem;
     }
 
     .filtre_p {
@@ -2262,9 +2275,10 @@
         font-size: 1.063em;
         border-radius: 50px;
         height: 39px;
-        padding: 9px 10px 0px 10.5px;
-        margin: -2.50px 2px 0px 0px;
-        width: 37px;
+        padding: 12px 9px 10px 14px;
+        margin: -3.35px 0px 0 -8px;
+        width: 44px;
+        height: auto;
     }
 
     .filtre_desc {
@@ -2603,7 +2617,7 @@
         margin: 0 38px 50px 0px;
         border-radius: 20px;
         box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
-        width:114%;
+        width:122%;
     }
 
     .responsive_activité a {
@@ -2675,6 +2689,10 @@
     .desc_footer {
         display: flex;
         flex-direction: column;
+    }
+
+    .desc_footer h4 {
+        margin-bottom: 18px;
     }
 
     .desc_footer a {

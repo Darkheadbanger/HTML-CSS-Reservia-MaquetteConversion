@@ -8,6 +8,7 @@
         font-weight: normal;
         font-style: normal;
     }
+    
     @font-face {
         font-family:'raleway_italic';
         src: url('fonts_Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');

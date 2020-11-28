@@ -1,6 +1,6 @@
 ﻿/* partie CSS */
 
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width:1200px) {
 
     @font-face {
         font-family:'raleway';
@@ -817,7 +817,6 @@
         border-left-color: grey;
         border-left-style: none;
         border-left-width: 1px;
-        border-style: normal;
         border-left: none;
         cursor: pointer;
         border-radius: 0 10px 10px 0;
@@ -832,7 +831,6 @@
         padding: 11px 0px 10px 17px;
         font-size: 1.063em;
         border: 1px grey;
-        border-style: normal;
         float: left;
         background: #F2F2F2;
         width: 43px;
@@ -860,7 +858,6 @@
     .filtre, .informations{
         display: flex;
         flex-wrap: wrap;
-        align-items: left;
         height: 50px;
         margin: 0px -1px;
     }
@@ -952,7 +949,6 @@
 
     .information_logo { /* pour crÃ©er le rond*/
         border: 1px solid grey;
-        border-style: normal;
         border-left: none;
         border-radius: 50%;
         width: 27px;
@@ -1023,7 +1019,6 @@
 
     .organisation {
         display: flex;
-        flex-direction:wrap;
         justify-content: space-between;
         background: #F2F2F2;
         margin: 0 0 30px 0;
@@ -1520,7 +1515,6 @@
         border-left-color: grey;
         border-left-style: none;
         border-left-width: 1px;
-        border-style: normal;
         border-left: none;
         cursor: pointer;
         border-radius: 0 10px 10px 0;
@@ -1535,7 +1529,6 @@
         padding: 11px 0px 10px 17px;
         font-size: 1.063em;
         border: 1px grey;
-        border-style: normal;
         float: left;
         background: #F2F2F2;
         width: 43px;
@@ -1574,7 +1567,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-items: left;
         height: 133px;
         height: 122px;
         margin: 1rem 0rem;
@@ -1660,7 +1652,6 @@
 
     .information_logo { /* pour crÃ©er le rond*/
         border: 1px solid grey;
-        border-style: normal;
         border-left: none;
         border-radius: 50%;
         width: 27px;
@@ -2214,7 +2205,6 @@
         color: white;
         font-size: 1.063em;
         border: 1px grey;
-        border-style: normal;
         border-left: none;
         cursor: pointer;
         border-radius: 15px;
@@ -2225,7 +2215,6 @@
         padding: 15px 15px 10px 17px;
         font-size: 1.063em;/* equivalent de 17px*/
         border: 1px grey;
-        border-style: normal;
         float: left;
         background:#F2F2F2;
         width: 43px;
@@ -2251,7 +2240,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-items: left;
         height: 10rem;
         margin-top: 0.8rem;
     }
@@ -2348,7 +2336,6 @@
 
     .information_logo { /* pour crÃ©er le rond*/
         border: 1px solid grey;
-        border-style: normal;
         border-left: none;
         border-radius: 50%;
         width: 29px;

@@ -87,6 +87,7 @@
     }
 
     /*exemple sur net*/
+    
     .hidden_petit a:hover { /*pseudeoclasse pour dire que si le cursor passe le couleur nav change*/
         color: #0065FC;
     }

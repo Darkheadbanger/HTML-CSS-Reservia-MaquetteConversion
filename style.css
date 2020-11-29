@@ -67,9 +67,16 @@
 
     .hidden_petit a { /* le nom n'est pas très explicite mais hiddent petit est pour le navigateur NAV*/
         font-size: 1.3em;
-        color: rgba(57, 130, 241);
         margin: 0px 28px;
         position: relative;
+    }
+
+    .hidden_petit--gris {
+        color: rgba(105, 105, 105);
+    }
+
+    .hidden_petit--blue {
+        color: #0065FC;
     }
 
     nav ul
@@ -81,7 +88,7 @@
 
     /*exemple sur net*/
     .hidden_petit a:hover { /*pseudeoclasse pour dire que si le cursor passe le couleur nav change*/
-        color: rgba(105, 105, 105);
+        color: #0065FC;
     }
     
     .hidden_petit a::after { /*pour le oetit trait en haut et en bas pour le petit écran*/

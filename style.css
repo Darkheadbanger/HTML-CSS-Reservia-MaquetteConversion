@@ -41,12 +41,12 @@
         height: 85px;
     }
 
-    .header {
+    .header { /* le header pour l'entête*/
         display:flex;
         justify-content: space-between;
     }
 
-    #logo {
+    #logo { /* ici est le flexbox pour organiser le logo et le menu Nav*/
         margin-bottom: 80px;
         display: flex;
         flex-direction: column;
@@ -65,7 +65,7 @@
     text-decoration: none;
     }
 
-    .hidden_petit a {
+    .hidden_petit a { /* le nom n'est pas très explicite mais hiddent petit est pour le navigateur NAV*/
         font-size: 1.3em;
         color: rgba(57, 130, 241);
         margin: 0px 28px;
@@ -80,11 +80,11 @@
     }
 
     /*exemple sur net*/
-    .hidden_petit a:hover {
+    .hidden_petit a:hover { /*pseudeoclasse pour dire que si le cursor passe le couleur nav change*/
         color: rgba(105, 105, 105);
     }
     
-    .hidden_petit a::after {
+    .hidden_petit a::after { /*pour le oetit trait en haut et en bas pour le petit écran*/
         content: "";
         position: absolute;
         background: #0065FC;
@@ -138,7 +138,7 @@
         height: 65px;
     }
     
-    form.localisation input[type="text"] {
+    form.localisation input[type="text"] { /* creation de formulaire pour la localisation*/
         padding: 9px;
         font-size: 1.063em;
         border: 1px solid white;
@@ -147,7 +147,7 @@
         border: 1px solid #f2f2f2;
     }
     
-    form.localisation button {
+    form.localisation button { /* le boutton du 'recherche*/
         float: left;
         padding: 10px;
         background: #0065FC;
@@ -307,7 +307,7 @@
         color: #0065FC;
     }
 
-    .section_flex {
+    .section_flex { /* pour organiser semantiquemnt la section avec flexbox*/
         display: flex;
         margin: 21px 0 0 0;
         margin-bottom: 112px;
@@ -363,7 +363,7 @@
         color: #F2F2F2;
     }
 
-    .organisation {
+    .organisation { /* flexbox row entre div orga et aside*/
         display: flex;
         flex-direction:wrap;
         justify-content: space-between;
@@ -371,7 +371,7 @@
         margin: 0 0 30px 0;
     }
 
-    .galerry_config {
+    .galerry_config { /* j'applique le éméthode DRY pour le configuration d'image galery*/
         width: 100%;
         height: 8vw;
         background-repeat: no-repeat;
@@ -380,7 +380,7 @@
         border-radius: 20px 20px 0 0;
     }
 
-    .gallery {
+    .gallery { /*l'image pour chaque classe*/
         background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     }
 
@@ -407,7 +407,7 @@
     }
 
 
-    .desc {
+    .desc { /*la description*/
         padding: 9px 46px 12px 0px;
         text-align: left;
     }
@@ -420,7 +420,6 @@
 
     .desc .prix {
         font-size: 1em;
-        /*margin: 0 0 140px 0;*/
         padding: 0 0 0 0;
         font-weight: normal;
     }
@@ -429,7 +428,7 @@
         padding: 35px 0 0 0;
     }
 
-    aside {
+    aside {/* aside pour la section "le plus populaire*/
         background: #f2f2f2f2;
         border-radius: 20px 20px 20px 20px;
         padding: 0px 21px 0px 21px;
@@ -487,7 +486,7 @@
     }
 
     
-    .image_box { /* Meme sans, ça foncitonne*/
+    .image_box { 
         width: 31.5%;
         height: 10vw;
         border-radius: 20px 0 0 20px;
@@ -497,7 +496,7 @@
         
     }
 
-    .image_box1 { /* Meme sans, ça foncitonne*/
+    .image_box1 { 
         background-image: url(Projet_2_Reservia/images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
         background-position: -3.3rem 0rem;
     }
@@ -557,7 +556,7 @@
         font-size: 1.4em;
     }
 
-    .organisation_activité {
+    .organisation_activité { /*flexbox pour que les images va de gazuche a droite*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
